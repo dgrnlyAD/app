@@ -1,4 +1,4 @@
-.home-child {
+.page-2-child {
   position: absolute;
   top: 0;
   left: 0;
@@ -6,44 +6,37 @@
   width: 1728px;
   height: 164px;
 }
-.introduction-to-composable {
+.page-21 {
   position: absolute;
   top: 60px;
-  left: 589px;
+  left: 815px;
   line-height: 140%;
   font-weight: 500;
 }
-.korem-ipsum-dolor {
+.text {
   position: relative;
-  line-height: 140%;
-  font-weight: 500;
+  line-height: 100%;
+  font-weight: 600;
 }
-.heroicons-outlinechevron-down {
-  position: relative;
-  width: 24px;
-  height: 24px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.faq-accordion {
+.button-contained {
   position: absolute;
-  top: 246px;
-  left: 565px;
-  border-top: 1px solid #e9e9eb;
-  border-bottom: 1px solid #e9e9eb;
-  box-sizing: border-box;
-  width: 598px;
+  top: 287px;
+  left: 850px;
+  border-radius: 6px;
+  background-color: #0b5b4b;
+  height: 52px;
+  overflow: hidden;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  padding: 16px 0;
+  justify-content: center;
+  padding: 14px 24px;
+  box-sizing: border-box;
   cursor: pointer;
   text-align: left;
   font-size: 16px;
-  color: #202020;
 }
-.home {
+.page-2 {
   position: relative;
   background-color: #fff;
   width: 100%;

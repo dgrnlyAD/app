@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./page-2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="page-2">
+      <div class="page-2-child"></div>
+      <div class="page-21">Page 2</div>
+      <div class="button-contained" id="buttonContainedContainer">
+        <div class="text">Button text</div>
+      </div>
+    </div>
+
+    <script>
+      var buttonContainedContainer = document.getElementById(
+        "buttonContainedContainer"
+      );
+      if (buttonContainedContainer) {
+        buttonContainedContainer.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -7,13 +7,32 @@
     <link rel="stylesheet" href="./index.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;600&display=swap"
     />
   </head>
   <body>
-    <div class="macbook-pro-16-1">
-      <div class="macbook-pro-16-1-child"></div>
-      <div class="some-text">Some text</div>
+    <div class="home">
+      <div class="home-child"></div>
+      <div class="introduction-to-composable">
+        Introduction to ‘Composable Products’
+      </div>
+      <div class="faq-accordion" id="fAQAccordionContainer">
+        <div class="korem-ipsum-dolor">Korem ipsum dolor sit amet</div>
+        <img
+          class="heroicons-outlinechevron-down"
+          alt=""
+          src="./public/heroiconsoutlinechevrondown.svg"
+        />
+      </div>
     </div>
+
+    <script>
+      var fAQAccordionContainer = document.getElementById("fAQAccordionContainer");
+      if (fAQAccordionContainer) {
+        fAQAccordionContainer.addEventListener("click", function (e) {
+          //TODO: Changes state to 'Expanded'
+        });
+      }
+    </script>
   </body>
 </html>
